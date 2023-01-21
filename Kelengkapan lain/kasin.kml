@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>kasin.kml</name>
+	<Schema name="njajalmalang" id="njajalmalang">
+		<SimpleField type="string" name="DESA"></SimpleField>
+		<SimpleField type="string" name="KODE"></SimpleField>
+		<SimpleField type="string" name="KECAMATAN"></SimpleField>
+		<SimpleField type="string" name="KABUPATEN"></SimpleField>
+		<SimpleField type="string" name="PROPINSI"></SimpleField>
+		<SimpleField type="string" name="STATUS_IDT"></SimpleField>
+		<SimpleField type="string" name="STATUS_KOT"></SimpleField>
+		<SimpleField type="string" name="STATUS_HUK"></SimpleField>
+		<SimpleField type="int" name="SUMBER_AIR"></SimpleField>
+		<SimpleField type="string" name="IDT_94_95"></SimpleField>
+		<SimpleField type="string" name="IDT_95_96"></SimpleField>
+		<SimpleField type="string" name="KLASIFIKAS"></SimpleField>
+		<SimpleField type="string" name="TERMASUK_D"></SimpleField>
+		<SimpleField type="int" name="LUAS_WILAY"></SimpleField>
+		<SimpleField type="string" name="SUMBER_PEN"></SimpleField>
+		<SimpleField type="string" name="SUB_SEKTOR"></SimpleField>
+		<SimpleField type="int" name="KEMATIAN_B"></SimpleField>
+		<SimpleField type="int" name="KEMATIAN"></SimpleField>
+		<SimpleField type="int" name="BANYAKNYA_"></SimpleField>
+	</Schema>
+	<Placemark>
+		<Style>
+			<LineStyle>
+				<color>ff0000ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<fill>0</fill>
+			</PolyStyle>
+		</Style>
+		<ExtendedData>
+			<SchemaData schemaUrl="#njajalmalang">
+				<SimpleData name="DESA">Kasin</SimpleData>
+				<SimpleData name="KECAMATAN">Klojen</SimpleData>
+				<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+				<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+				<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+				<SimpleData name="STATUS_KOT">Kota</SimpleData>
+				<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+				<SimpleData name="SUMBER_AIR">1</SimpleData>
+				<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+				<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+				<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+				<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+				<SimpleData name="LUAS_WILAY">985</SimpleData>
+				<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+				<SimpleData name="KEMATIAN_B">2</SimpleData>
+				<SimpleData name="KEMATIAN">92</SimpleData>
+				<SimpleData name="BANYAKNYA_">0</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						112.62740688,-7.992009,0 112.627251,-7.99215201,0 112.62673116,-7.991501040000001,0 112.62655116,-7.99020297,0 112.62633588,-7.98886998,0 112.62599496,-7.98694497,0 112.62576384,-7.98410601,0 112.62565512,-7.982368020000001,0 112.62575592,-7.98059601,0 112.62688992,-7.978921020000001,0 112.62687984,-7.97849802,0 112.62751992,-7.97845203,0 112.62773808,-7.97894802,0 112.628826,-7.980134039999999,0 112.63046004,-7.981091010000001,0 112.632048,-7.98213996,0 112.63249584,-7.98237603,0 112.631958,-7.98413301,0 112.63175208,-7.98576003,0 112.63113684,-7.985820960000001,0 112.63049496,-7.98654798,0 112.62980088,-7.98837498,0 112.62877992,-7.990746030000001,0 112.62835692,-7.99113501,0 112.62740688,-7.992009,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

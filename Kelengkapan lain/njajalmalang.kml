@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="njajalmalang" id="njajalmalang">
+	<SimpleField name="DESA" type="string"></SimpleField>
+	<SimpleField name="KODE" type="string"></SimpleField>
+	<SimpleField name="KECAMATAN" type="string"></SimpleField>
+	<SimpleField name="KABUPATEN" type="string"></SimpleField>
+	<SimpleField name="PROPINSI" type="string"></SimpleField>
+	<SimpleField name="STATUS_IDT" type="string"></SimpleField>
+	<SimpleField name="STATUS_KOT" type="string"></SimpleField>
+	<SimpleField name="STATUS_HUK" type="string"></SimpleField>
+	<SimpleField name="SUMBER_AIR" type="int"></SimpleField>
+	<SimpleField name="IDT_94_95" type="string"></SimpleField>
+	<SimpleField name="IDT_95_96" type="string"></SimpleField>
+	<SimpleField name="KLASIFIKAS" type="string"></SimpleField>
+	<SimpleField name="TERMASUK_D" type="string"></SimpleField>
+	<SimpleField name="LUAS_WILAY" type="int"></SimpleField>
+	<SimpleField name="SUMBER_PEN" type="string"></SimpleField>
+	<SimpleField name="SUB_SEKTOR" type="string"></SimpleField>
+	<SimpleField name="KEMATIAN_B" type="int"></SimpleField>
+	<SimpleField name="KEMATIAN" type="int"></SimpleField>
+	<SimpleField name="BANYAKNYA_" type="int"></SimpleField>
+</Schema>
+<Folder><name>njajalmalang</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Arjowinangun</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">2869</SimpleData>
+		<SimpleData name="SUMBER_PEN">Pertanian</SimpleData>
+		<SimpleData name="SUB_SEKTOR">Tanaman Pangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">1</SimpleData>
+		<SimpleData name="KEMATIAN">30</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63237308,-8.03243502,0 112.63232088,-8.02674396,0 112.63180896,-8.02404198,0 112.63147416,-8.02081998,0 112.63094388,-8.01721503,0 112.631166,-8.01424998,0 112.63131,-8.01395802,0 112.63303692,-8.014212,0 112.63573008,-8.01502299,0 112.63756284,-8.01574902,0 112.63879512,-8.01579996,0 112.63947984,-8.01576801,0 112.63979808,-8.017623,0 112.64071104,-8.01878598,0 112.641777,-8.01968202,0 112.64187708,-8.02077201,0 112.64264208,-8.02119204,0 112.64325408,-8.02207503,0 112.64261796,-8.02404198,0 112.64151708,-8.02600704,0 112.64128884,-8.02783602,0 112.64210712,-8.02950804,0 112.64252004,-8.03060802,0 112.63237308,-8.03243502,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Tlogowaru</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">6</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">4506</SimpleData>
+		<SimpleData name="SUMBER_PEN">Pertanian</SimpleData>
+		<SimpleData name="SUB_SEKTOR">Tanaman Pangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">3</SimpleData>
+		<SimpleData name="KEMATIAN">43</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.64252004,-8.03060802,0 112.64210712,-8.02950804,0 112.64128884,-8.02783602,0 112.64151708,-8.02600704,0 112.64261796,-8.02404198,0 112.64325408,-8.02207503,0 112.64264208,-8.02119204,0 112.64187708,-8.02077201,0 112.641777,-8.01968202,0 112.64071104,-8.01878598,0 112.63979808,-8.017623,0 112.63947984,-8.01576801,0 112.64037588,-8.01572598,0 112.64233608,-8.01564498,0 112.64368608,-8.016192,0 112.645125,-8.016858,0 112.64648292,-8.01717696,0 112.64887692,-8.01728001,0 112.65107292,-8.01730098,0 112.65280596,-8.01698301,0 112.654089,-8.01604998,0 112.65554412,-8.01544302,0 112.65715908,-8.01550701,0 112.65864804,-8.01536301,0 112.65986988,-8.014986,0 112.660686,-8.01431703,0 112.66127316,-8.01291798,0 112.66287408,-8.01144297,0 112.660965,-8.01680598,0 112.66096392,-8.01680904,0 112.65918012,-8.02293399,0 112.653873,-8.02786203,0 112.65068916,-8.02871802,0 112.64710896,-8.02968003,0 112.645962,-8.029989,0 112.64252004,-8.03060802,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Wonokoyo</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">2</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">5580</SimpleData>
+		<SimpleData name="SUMBER_PEN">Pertanian</SimpleData>
+		<SimpleData name="SUB_SEKTOR">Tanaman Pangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">3</SimpleData>
+		<SimpleData name="KEMATIAN">18</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.64233608,-8.01564498,0 112.64157504,-8.015337,0 112.64098716,-8.01415296,0 112.64100588,-8.012439,0 112.64184612,-8.00888598,0 112.64209812,-8.00709102,0 112.64217516,-8.00590104,0 112.64324184,-8.005914,0 112.64418612,-8.00530398,0 112.64432112,-8.00362503,0 112.64405004,-8.00170101,0 112.64419404,-8.00068203,0 112.64519592,-8.00008398,0 112.64711112,-8.00064801,0 112.648401,-8.00068797,0 112.64949108,-8.00131797,0 112.65099516,-8.00292303,0 112.65262812,-8.00419302,0 112.65459696,-8.00589303,0 112.65675408,-8.00687502,0 112.65911892,-8.00833302,0 112.66088112,-8.00946396,0 112.66287408,-8.01144297,0 112.66127316,-8.01291798,0 112.660686,-8.01431703,0 112.65986988,-8.014986,0 112.65864804,-8.01536301,0 112.65715908,-8.01550701,0 112.65554412,-8.01544302,0 112.654089,-8.01604998,0 112.65280596,-8.01698301,0 112.65107292,-8.01730098,0 112.64887692,-8.01728001,0 112.64648292,-8.01717696,0 112.645125,-8.016858,0 112.64368608,-8.016192,0 112.64233608,-8.01564498,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Bumiayu</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">3862</SimpleData>
+		<SimpleData name="SUMBER_PEN">Pertanian</SimpleData>
+		<SimpleData name="SUB_SEKTOR">Tanaman Pangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">6</SimpleData>
+		<SimpleData name="KEMATIAN">30</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63239612,-8.012007,0 112.63348188,-8.010657,0 112.63390596,-8.00945397,0 112.63375188,-8.00748396,0 112.63333212,-8.00500302,0 112.63325904,-8.00310303,0 112.63388508,-8.00090397,0 112.63345092,-7.99908399,0 112.63254012,-7.99742304,0 112.63244688,-7.99605,0 112.63412916,-7.99533297,0 112.63518,-7.99435296,0 112.63614516,-7.99420599,0 112.63779792,-7.99345998,0 112.63786596,-7.99332804,0 112.63857408,-7.99418196,0 112.63929084,-7.99489197,0 112.63932216,-7.99579503,0 112.64021496,-7.99633197,0 112.64172516,-7.99658199,0 112.64254704,-7.997211,0 112.64284296,-7.99861401,0 112.641957,-7.99924698,0 112.64077584,-7.99823403,0 112.63953708,-7.99712901,0 112.63879404,-7.99713702,0 112.63874184,-7.99837596,0 112.63978116,-7.99985196,0 112.640859,-8.00061003,0 112.64141484,-8.00108703,0 112.64198616,-8.00070696,0 112.64270616,-8.000919,0 112.642794,-8.00203104,0 112.642425,-8.00394102,0 112.64221008,-8.005365,0 112.64217516,-8.00590104,0 112.64209812,-8.00709102,0 112.64184612,-8.00888598,0 112.64100588,-8.012439,0 112.64098716,-8.01415296,0 112.64157504,-8.015337,0 112.64233608,-8.01564498,0 112.64037588,-8.01572598,0 112.63947984,-8.01576801,0 112.63879512,-8.01579996,0 112.63756284,-8.01574902,0 112.63573008,-8.01502299,0 112.63303692,-8.014212,0 112.63131,-8.01395802,0 112.63208004,-8.01240003,0 112.63239612,-8.012007,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Buring</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">5100</SimpleData>
+		<SimpleData name="SUMBER_PEN">Pertanian</SimpleData>
+		<SimpleData name="SUB_SEKTOR">Tanaman Pangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">28</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.64217516,-8.00590104,0 112.64221008,-8.005365,0 112.642425,-8.00394102,0 112.642794,-8.00203104,0 112.64270616,-8.000919,0 112.64198616,-8.00070696,0 112.64141484,-8.00108703,0 112.640859,-8.00061003,0 112.63978116,-7.99985196,0 112.63874184,-7.99837596,0 112.63879404,-7.99713702,0 112.63953708,-7.99712901,0 112.64077584,-7.99823403,0 112.641957,-7.99924698,0 112.64284296,-7.99861401,0 112.64254704,-7.997211,0 112.64172516,-7.99658199,0 112.64021496,-7.99633197,0 112.63932216,-7.99579503,0 112.63929084,-7.99489197,0 112.63857408,-7.99418196,0 112.63786596,-7.99332804,0 112.63844304,-7.99221204,0 112.63865004,-7.99109001,0 112.63959612,-7.99147503,0 112.64132808,-7.99143696,0 112.64214384,-7.99084899,0 112.64255784,-7.99006203,0 112.644261,-7.99052202,0 112.64636088,-7.99143498,0 112.64903892,-7.99282503,0 112.65292404,-7.99472898,0 112.65584508,-7.99659504,0 112.66000812,-7.99887204,0 112.66230312,-8.00020197,0 112.66409988,-8.00130996,0 112.66666992,-8.00361504,0 112.66720488,-8.00417403,0 112.66632612,-8.005221,0 112.66301016,-8.01106002,0 112.66287408,-8.01144297,0 112.66088112,-8.00946396,0 112.65911892,-8.00833302,0 112.65675408,-8.00687502,0 112.65459696,-8.00589303,0 112.65262812,-8.00419302,0 112.65099516,-8.00292303,0 112.64949108,-8.00131797,0 112.648401,-8.00068797,0 112.64711112,-8.00064801,0 112.64519592,-8.00008398,0 112.64419404,-8.00068203,0 112.64405004,-8.00170101,0 112.64432112,-8.00362503,0 112.64418612,-8.00530398,0 112.64324184,-8.005914,0 112.64217516,-8.00590104,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Mergosono</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">560</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">6</SimpleData>
+		<SimpleData name="KEMATIAN">78</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63244688,-7.99605,0 112.63243104,-7.99580097,0 112.63345308,-7.993233,0 112.63429692,-7.991406,0 112.63466484,-7.98956604,0 112.63509108,-7.98781896,0 112.635333,-7.98740397,0 112.63564584,-7.98686496,0 112.63598784,-7.98741702,0 112.63705308,-7.98840603,0 112.638303,-7.98953499,0 112.63869288,-7.99085799,0 112.63865004,-7.99109001,0 112.63844304,-7.99221204,0 112.63786596,-7.99332804,0 112.63779792,-7.99345998,0 112.63614516,-7.99420599,0 112.63518,-7.99435296,0 112.63412916,-7.99533297,0 112.63244688,-7.99605,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Kotalama</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">860</SimpleData>
+		<SimpleData name="SUMBER_PEN">Perdagangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">57</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63865004,-7.99109001,0 112.63869288,-7.99085799,0 112.638303,-7.98953499,0 112.63705308,-7.98840603,0 112.63598784,-7.98741702,0 112.63564584,-7.98686496,0 112.635864,-7.98649002,0 112.63664916,-7.98504498,0 112.63702284,-7.98396498,0 112.639563,-7.98577596,0 112.64178888,-7.98690897,0 112.64327496,-7.98768396,0 112.64297616,-7.98926598,0 112.64255784,-7.99006203,0 112.64214384,-7.99084899,0 112.64132808,-7.99143696,0 112.63959612,-7.99147503,0 112.63865004,-7.99109001,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Kedungkandang</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">2800</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">1</SimpleData>
+		<SimpleData name="KEMATIAN">53</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.66720488,-8.00417403,0 112.66666992,-8.00361504,0 112.66409988,-8.00130996,0 112.66230312,-8.00020197,0 112.66000812,-7.99887204,0 112.65584508,-7.99659504,0 112.65292404,-7.99472898,0 112.64903892,-7.99282503,0 112.64636088,-7.99143498,0 112.644261,-7.99052202,0 112.64255784,-7.99006203,0 112.64297616,-7.98926598,0 112.64327496,-7.98768396,0 112.64366808,-7.98788997,0 112.64496012,-7.98738597,0 112.64603688,-7.98588504,0 112.64678388,-7.984845,0 112.647744,-7.98320403,0 112.64813388,-7.98165297,0 112.64817708,-7.98144201,0 112.64982912,-7.98255297,0 112.64955516,-7.98360498,0 112.65009804,-7.984233,0 112.65137388,-7.98491097,0 112.652496,-7.98607404,0 112.65348996,-7.98744501,0 112.65432696,-7.99009002,0 112.65615396,-7.99214796,0 112.65868008,-7.99396596,0 112.66053516,-7.99586397,0 112.66063596,-7.99596702,0 112.66330104,-7.99779699,0 112.66405092,-7.99831296,0 112.66535196,-7.99920702,0 112.667076,-8.00098704,0 112.66864308,-8.00246097,0 112.66720488,-8.00417403,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Lesan Puro</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">3727</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">8</SimpleData>
+		<SimpleData name="KEMATIAN">66</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.66053516,-7.99586397,0 112.65868008,-7.99396596,0 112.65615396,-7.99214796,0 112.65432696,-7.99009002,0 112.65348996,-7.98744501,0 112.652496,-7.98607404,0 112.65137388,-7.98491097,0 112.65009804,-7.984233,0 112.64955516,-7.98360498,0 112.64982912,-7.98255297,0 112.64986188,-7.98242499,0 112.65064812,-7.98074901,0 112.65155784,-7.97999904,0 112.65302484,-7.97918301,0 112.65447384,-7.97740497,0 112.65538608,-7.97609997,0 112.65613704,-7.97483997,0 112.65716808,-7.97507604,0 112.658571,-7.97582403,0 112.65898716,-7.97648598,0 112.65834384,-7.97728203,0 112.65727392,-7.97752098,0 112.65628392,-7.97808501,0 112.65552504,-7.97888097,0 112.65496308,-7.97982804,0 112.655007,-7.98039603,0 112.65590016,-7.98101397,0 112.65677712,-7.98231501,0 112.65739992,-7.98341796,0 112.65830208,-7.98455799,0 112.65886584,-7.98583401,0 112.659651,-7.98710004,0 112.66080912,-7.987986,0 112.661991,-7.98890598,0 112.66289316,-7.98976701,0 112.66334316,-7.99054497,0 112.66329204,-7.99173801,0 112.66260012,-7.99309098,0 112.66186284,-7.99432704,0 112.66107984,-7.99541298,0 112.66053516,-7.99586397,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Madyopuro</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">3490</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">12</SimpleData>
+		<SimpleData name="KEMATIAN">66</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.66053516,-7.99586397,0 112.66107984,-7.99541298,0 112.66186284,-7.99432704,0 112.66260012,-7.99309098,0 112.66329204,-7.99173801,0 112.66334316,-7.99054497,0 112.66289316,-7.98976701,0 112.661991,-7.98890598,0 112.66080912,-7.987986,0 112.659651,-7.98710004,0 112.65886584,-7.98583401,0 112.65830208,-7.98455799,0 112.65739992,-7.98341796,0 112.65677712,-7.98231501,0 112.65590016,-7.98101397,0 112.655007,-7.98039603,0 112.65496308,-7.97982804,0 112.65552504,-7.97888097,0 112.65628392,-7.97808501,0 112.65727392,-7.97752098,0 112.65834384,-7.97728203,0 112.65898716,-7.97648598,0 112.658571,-7.97582403,0 112.65716808,-7.97507604,0 112.65613704,-7.97483997,0 112.65659208,-7.97407803,0 112.65875496,-7.97083101,0 112.65965208,-7.96935303,0 112.660749,-7.97203602,0 112.66827192,-7.97657103,0 112.667445,-7.97696199,0 112.66666488,-7.97725998,0 112.66547904,-7.97745204,0 112.66472016,-7.97822496,0 112.66455312,-7.97924304,0 112.66475796,-7.98032196,0 112.66524108,-7.98149403,0 112.66525908,-7.98266403,0 112.66478892,-7.98392502,0 112.66468992,-7.985511,0 112.66500816,-7.98716898,0 112.66498908,-7.98890697,0 112.66534584,-7.98970797,0 112.66567992,-7.99031196,0 112.66498584,-7.99225497,0 112.66462008,-7.99373601,0 112.66430004,-7.99524099,0 112.66410708,-7.99695504,0 112.66405092,-7.99831296,0 112.66330104,-7.99779699,0 112.66063596,-7.99596702,0 112.66053516,-7.99586397,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Cemorokandang</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">4943</SimpleData>
+		<SimpleData name="SUMBER_PEN">Pertanian</SimpleData>
+		<SimpleData name="SUB_SEKTOR">Tanaman Pangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">16</SimpleData>
+		<SimpleData name="KEMATIAN">58</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.64965488,-7.97379696,0 112.64984316,-7.97321502,0 112.65145308,-7.97173902,0 112.652739,-7.97012199,0 112.65363216,-7.96807296,0 112.65373584,-7.96783302,0 112.654881,-7.96647096,0 112.65598584,-7.96609296,0 112.65782112,-7.96487301,0 112.65965208,-7.96935303,0 112.65875496,-7.97083101,0 112.65659208,-7.97407803,0 112.65613704,-7.97483997,0 112.65538608,-7.97609997,0 112.65447384,-7.97740497,0 112.65302484,-7.97918301,0 112.65155784,-7.97999904,0 112.65064812,-7.98074901,0 112.64986188,-7.98242499,0 112.64982912,-7.98255297,0 112.64817708,-7.98144201,0 112.64847804,-7.97996304,0 112.64923188,-7.97771898,0 112.64911308,-7.97547096,0 112.64965488,-7.97379696,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Sawojajar</SimpleData>
+		<SimpleData name="KECAMATAN">Kidung Kandang</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1813</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">68</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.66405092,-7.99831296,0 112.66410708,-7.99695504,0 112.66430004,-7.99524099,0 112.66462008,-7.99373601,0 112.66498584,-7.99225497,0 112.66567992,-7.99031196,0 112.66534584,-7.98970797,0 112.66498908,-7.98890697,0 112.66500816,-7.98716898,0 112.66468992,-7.985511,0 112.66478892,-7.98392502,0 112.66525908,-7.98266403,0 112.66524108,-7.98149403,0 112.66475796,-7.98032196,0 112.66455312,-7.97924304,0 112.66472016,-7.97822496,0 112.66547904,-7.97745204,0 112.66666488,-7.97725998,0 112.667445,-7.97696199,0 112.66827192,-7.97657103,0 112.66899408,-7.977006,0 112.67440092,-7.97914998,0 112.67553708,-7.97960097,0 112.67724888,-7.98301197,0 112.67805708,-7.98462297,0 112.67347212,-7.99372197,0 112.67138412,-7.99871697,0 112.67098488,-7.99967097,0 112.66864308,-8.00246097,0 112.667076,-8.00098704,0 112.66535196,-7.99920702,0 112.66405092,-7.99831296,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Bareng</SimpleData>
+		<SimpleData name="KECAMATAN">Klojen</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1065</SimpleData>
+		<SimpleData name="SUMBER_PEN">Industri</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">97</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62115008,-7.97885703,0 112.62074688,-7.97787504,0 112.62026412,-7.97661,0 112.61959704,-7.97507802,0 112.61877696,-7.97383503,0 112.618809,-7.97269698,0 112.620501,-7.97289201,0 112.62335508,-7.97403996,0 112.62542112,-7.97456997,0 112.62628116,-7.97481801,0 112.62652416,-7.97488803,0 112.62758904,-7.97586498,0 112.62939588,-7.97720598,0 112.62847284,-7.978383,0 112.62751992,-7.97845203,0 112.62687984,-7.97849802,0 112.62687012,-7.97811003,0 112.626243,-7.97803803,0 112.62562488,-7.97860296,0 112.62501792,-7.97906304,0 112.62420108,-7.97937696,0 112.62358692,-7.97961303,0 112.62222684,-7.97956101,0 112.62116088,-7.97888502,0 112.62115008,-7.97885703,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Kasin</SimpleData>
+		<SimpleData name="KECAMATAN">Klojen</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">985</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">2</SimpleData>
+		<SimpleData name="KEMATIAN">92</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62740688,-7.992009,0 112.627251,-7.99215201,0 112.62673116,-7.99150104,0 112.62655116,-7.99020297,0 112.62633588,-7.98886998,0 112.62599496,-7.98694497,0 112.62576384,-7.98410601,0 112.62565512,-7.98236802,0 112.62575592,-7.98059601,0 112.62688992,-7.97892102,0 112.62687984,-7.97849802,0 112.62751992,-7.97845203,0 112.62773808,-7.97894802,0 112.628826,-7.98013404,0 112.63046004,-7.98109101,0 112.632048,-7.98213996,0 112.63249584,-7.98237603,0 112.631958,-7.98413301,0 112.63175208,-7.98576003,0 112.63113684,-7.98582096,0 112.63049496,-7.98654798,0 112.62980088,-7.98837498,0 112.62877992,-7.99074603,0 112.62835692,-7.99113501,0 112.62740688,-7.992009,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Sukoharjo</SimpleData>
+		<SimpleData name="KECAMATAN">Klojen</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">548</SimpleData>
+		<SimpleData name="SUMBER_PEN">Perdagangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">47</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63175208,-7.98576003,0 112.631958,-7.98413301,0 112.63249584,-7.98237603,0 112.63253508,-7.98224697,0 112.63305816,-7.98110703,0 112.633191,-7.98118398,0 112.634586,-7.981074,0 112.63544892,-7.980336,0 112.63618296,-7.97980599,0 112.63746096,-7.97996196,0 112.63827888,-7.98033303,0 112.63817916,-7.98060303,0 112.63740192,-7.98287004,0 112.63702284,-7.98396498,0 112.63664916,-7.98504498,0 112.635864,-7.98649002,0 112.63564584,-7.98686496,0 112.635333,-7.98740397,0 112.63437504,-7.98675003,0 112.63321584,-7.98603804,0 112.63214916,-7.98572097,0 112.63175208,-7.98576003,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Kidul Dalem</SimpleData>
+		<SimpleData name="KECAMATAN">Klojen</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">490</SimpleData>
+		<SimpleData name="SUMBER_PEN">Perdagangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">31</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63305816,-7.98110703,0 112.63222908,-7.980624,0 112.63153788,-7.97909103,0 112.63199616,-7.97805099,0 112.63303296,-7.97732496,0 112.63402404,-7.97650704,0 112.634712,-7.97529096,0 112.635225,-7.975782,0 112.63663008,-7.97591601,0 112.63949496,-7.97638797,0 112.63910796,-7.97809302,0 112.63855608,-7.97958297,0 112.63827888,-7.98033303,0 112.63746096,-7.97996196,0 112.63618296,-7.97980599,0 112.63544892,-7.980336,0 112.634586,-7.981074,0 112.633191,-7.98118398,0 112.63305816,-7.98110703,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Kauman</SimpleData>
+		<SimpleData name="KECAMATAN">Klojen</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">815</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">57</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62751992,-7.97845203,0 112.62847284,-7.978383,0 112.62939588,-7.97720598,0 112.62758904,-7.97586498,0 112.62652416,-7.97488803,0 112.62628116,-7.97481801,0 112.62764304,-7.97255703,0 112.62792816,-7.97273901,0 112.62950388,-7.97383503,0 112.63071996,-7.97479002,0 112.63192812,-7.97494797,0 112.63199688,-7.97495796,0 112.63346208,-7.97486004,0 112.63448412,-7.97507199,0 112.634712,-7.97529096,0 112.63402404,-7.97650704,0 112.63303296,-7.97732496,0 112.63199616,-7.97805099,0 112.63153788,-7.97909103,0 112.63222908,-7.980624,0 112.63305816,-7.98110703,0 112.63253508,-7.98224697,0 112.63249584,-7.98237603,0 112.632048,-7.98213996,0 112.63046004,-7.98109101,0 112.628826,-7.98013404,0 112.62773808,-7.97894802,0 112.62751992,-7.97845203,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Gadingkasri</SimpleData>
+		<SimpleData name="KECAMATAN">Klojen</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">912</SimpleData>
+		<SimpleData name="SUMBER_PEN">Keuangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">62</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.619115,-7.97056803,0 112.61917692,-7.97019903,0 112.618764,-7.968888,0 112.61770092,-7.96743504,0 112.61753388,-7.965882,0 112.61794716,-7.96436604,0 112.61818584,-7.96276899,0 112.61832804,-7.96257,0 112.61860704,-7.96218003,0 112.61948904,-7.96261203,0 112.62039084,-7.96358898,0 112.62180204,-7.96514796,0 112.623588,-7.96593204,0 112.62421008,-7.96565403,0 112.62421404,-7.96628196,0 112.623777,-7.96796001,0 112.62417588,-7.96962996,0 112.62599316,-7.97150304,0 112.62764304,-7.97255703,0 112.62628116,-7.97481801,0 112.62542112,-7.97456997,0 112.62335508,-7.97403996,0 112.620501,-7.97289201,0 112.618809,-7.97269698,0 112.61881908,-7.97234103,0 112.619115,-7.97056803,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Oro Oro Dowo</SimpleData>
+		<SimpleData name="KECAMATAN">Klojen</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1375</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">51</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62764304,-7.97255703,0 112.62599316,-7.97150304,0 112.62417588,-7.96962996,0 112.623777,-7.96796001,0 112.62421404,-7.96628196,0 112.62421008,-7.96565403,0 112.625055,-7.96527702,0 112.62556008,-7.96453596,0 112.62662604,-7.96486698,0 112.628043,-7.96500099,0 112.62936708,-7.96514499,0 112.62984588,-7.96460301,0 112.62989088,-7.964487,0 112.630077,-7.96481298,0 112.63111488,-7.96671702,0 112.63197996,-7.96823802,0 112.63223988,-7.96994199,0 112.63219596,-7.97193504,0 112.63221108,-7.97286402,0 112.63222404,-7.97363802,0 112.63192812,-7.97494797,0 112.63071996,-7.97479002,0 112.62950388,-7.97383503,0 112.62792816,-7.97273901,0 112.62764304,-7.97255703,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Klojen</SimpleData>
+		<SimpleData name="KECAMATAN">Klojen</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">808</SimpleData>
+		<SimpleData name="SUMBER_PEN">Perdagangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">25</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63221108,-7.97286402,0 112.63327884,-7.97149899,0 112.63435812,-7.96917501,0 112.63475304,-7.96846104,0 112.63562496,-7.96905297,0 112.63657716,-7.96948596,0 112.63693392,-7.97018301,0 112.63804992,-7.97010597,0 112.63927788,-7.96961601,0 112.63917816,-7.96997196,0 112.63950792,-7.97139801,0 112.63979016,-7.97345001,0 112.63955796,-7.97611401,0 112.63949496,-7.97638797,0 112.63663008,-7.97591601,0 112.635225,-7.975782,0 112.634712,-7.97529096,0 112.63448412,-7.97507199,0 112.63346208,-7.97486004,0 112.63199688,-7.97495796,0 112.63192812,-7.97494797,0 112.63222404,-7.97363802,0 112.63221108,-7.97286402,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Rampal Celaket</SimpleData>
+		<SimpleData name="KECAMATAN">Klojen</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">510</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">55</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63475304,-7.96846104,0 112.63514292,-7.967754,0 112.63482108,-7.96699899,0 112.63378788,-7.96663602,0 112.63275612,-7.966098,0 112.63230792,-7.96503096,0 112.63285116,-7.96430304,0 112.63373712,-7.96511799,0 112.63502304,-7.9659,0 112.636116,-7.965846,0 112.63730688,-7.96442697,0 112.63781412,-7.96289904,0 112.63774392,-7.96280103,0 112.638429,-7.96295997,0 112.63932216,-7.96334598,0 112.63997016,-7.96416003,0 112.64010408,-7.96524903,0 112.64007492,-7.96668597,0 112.63973004,-7.96800501,0 112.63969692,-7.968132,0 112.63927788,-7.96961601,0 112.63804992,-7.97010597,0 112.63693392,-7.97018301,0 112.63657716,-7.96948596,0 112.63562496,-7.96905297,0 112.63475304,-7.96846104,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Samaan</SimpleData>
+		<SimpleData name="KECAMATAN">Klojen</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">535</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">68</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62989088,-7.964487,0 112.62916584,-7.96322097,0 112.62902292,-7.96140198,0 112.62872916,-7.95940803,0 112.62863016,-7.95819402,0 112.62885012,-7.95836601,0 112.63101804,-7.95954501,0 112.63288392,-7.96081599,0 112.63287708,-7.96238001,0 112.63277592,-7.96423302,0 112.63285116,-7.96430304,0 112.63230792,-7.96503096,0 112.63275612,-7.966098,0 112.63378788,-7.96663602,0 112.63482108,-7.96699899,0 112.63514292,-7.967754,0 112.63475304,-7.96846104,0 112.63435812,-7.96917501,0 112.63327884,-7.97149899,0 112.63221108,-7.97286402,0 112.63219596,-7.97193504,0 112.63223988,-7.96994199,0 112.63197996,-7.96823802,0 112.63111488,-7.96671702,0 112.630077,-7.96481298,0 112.62989088,-7.964487,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Penangungan</SimpleData>
+		<SimpleData name="KECAMATAN">Klojen</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">782</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">3</SimpleData>
+		<SimpleData name="KEMATIAN">77</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62556008,-7.96453596,0 112.62589704,-7.96404096,0 112.62644208,-7.96166901,0 112.62575988,-7.960797,0 112.62420612,-7.96003704,0 112.62273516,-7.95905802,0 112.62268008,-7.958502,0 112.62261204,-7.957818,0 112.62243492,-7.95577797,0 112.62168396,-7.95483603,0 112.62136212,-7.95398904,0 112.62201696,-7.95305403,0 112.62216816,-7.953066,0 112.62294612,-7.95312702,0 112.62411612,-7.95412899,0 112.62549312,-7.95530502,0 112.62700908,-7.95693303,0 112.62772404,-7.95748896,0 112.62863016,-7.95819402,0 112.62872916,-7.95940803,0 112.62902292,-7.96140198,0 112.62916584,-7.96322097,0 112.62989088,-7.964487,0 112.62984588,-7.96460301,0 112.62936708,-7.96514499,0 112.628043,-7.96500099,0 112.62662604,-7.96486698,0 112.62556008,-7.96453596,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Jodipan</SimpleData>
+		<SimpleData name="KECAMATAN">Blimbing</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">494</SimpleData>
+		<SimpleData name="SUMBER_PEN">Perdagangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">39</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63702284,-7.98396498,0 112.63740192,-7.98287004,0 112.63817916,-7.98060303,0 112.63827888,-7.98033303,0 112.63855608,-7.97958297,0 112.63951692,-7.98011001,0 112.64061816,-7.98094899,0 112.64071896,-7.981299,0 112.64097312,-7.98217902,0 112.64087484,-7.98336,0 112.64224212,-7.98432696,0 112.64451696,-7.98503202,0 112.64603688,-7.98588504,0 112.64496012,-7.98738597,0 112.64366808,-7.98788997,0 112.64327496,-7.98768396,0 112.64178888,-7.98690897,0 112.639563,-7.98577596,0 112.63702284,-7.98396498,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Polehan</SimpleData>
+		<SimpleData name="KECAMATAN">Blimbing</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">1012</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">11</SimpleData>
+		<SimpleData name="KEMATIAN">89</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.64603688,-7.98588504,0 112.64451696,-7.98503202,0 112.64224212,-7.98432696,0 112.64087484,-7.98336,0 112.64097312,-7.98217902,0 112.64071896,-7.981299,0 112.64192208,-7.98045696,0 112.64284296,-7.97956803,0 112.64366196,-7.978356,0 112.64432616,-7.97811498,0 112.645485,-7.97885001,0 112.64699484,-7.97892597,0 112.64737104,-7.97800104,0 112.64621292,-7.97711499,0 112.64513616,-7.97614902,0 112.64555808,-7.97518899,0 112.64648184,-7.97396499,0 112.64680512,-7.97354604,0 112.64863212,-7.97382396,0 112.64965488,-7.97379696,0 112.64911308,-7.97547096,0 112.64923188,-7.97771898,0 112.64847804,-7.97996304,0 112.64817708,-7.98144201,0 112.64813388,-7.98165297,0 112.647744,-7.98320403,0 112.64678388,-7.984845,0 112.64603688,-7.98588504,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Kesatrian</SimpleData>
+		<SimpleData name="KECAMATAN">Blimbing</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">1452</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">2</SimpleData>
+		<SimpleData name="KEMATIAN">42</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63949496,-7.97638797,0 112.63955796,-7.97611401,0 112.63979016,-7.97345001,0 112.63950792,-7.97139801,0 112.63917816,-7.96997196,0 112.63927788,-7.96961601,0 112.63969692,-7.968132,0 112.63973004,-7.96800501,0 112.64114988,-7.96801104,0 112.64285088,-7.96975596,0 112.64452596,-7.97205699,0 112.64667012,-7.97352597,0 112.64680512,-7.97354604,0 112.64648184,-7.97396499,0 112.64555808,-7.97518899,0 112.64513616,-7.97614902,0 112.64621292,-7.97711499,0 112.64737104,-7.97800104,0 112.64699484,-7.97892597,0 112.645485,-7.97885001,0 112.64432616,-7.97811498,0 112.64366196,-7.978356,0 112.64284296,-7.97956803,0 112.64192208,-7.98045696,0 112.64071896,-7.981299,0 112.64061816,-7.98094899,0 112.63951692,-7.98011001,0 112.63855608,-7.97958297,0 112.63910796,-7.97809302,0 112.63949496,-7.97638797,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Bunulrejo</SimpleData>
+		<SimpleData name="KECAMATAN">Blimbing</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">1842</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">5</SimpleData>
+		<SimpleData name="KEMATIAN">71</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.64680512,-7.97354604,0 112.64667012,-7.97352597,0 112.64452596,-7.97205699,0 112.64285088,-7.96975596,0 112.64114988,-7.96801104,0 112.63973004,-7.96800501,0 112.64007492,-7.96668597,0 112.64010408,-7.96524903,0 112.63997016,-7.96416003,0 112.63932216,-7.96334598,0 112.638429,-7.96295997,0 112.63774392,-7.96280103,0 112.63730508,-7.96217904,0 112.63723812,-7.96144104,0 112.63849416,-7.96138497,0 112.64048892,-7.96233204,0 112.64234904,-7.96471398,0 112.64358384,-7.96683996,0 112.64440284,-7.96829103,0 112.64536512,-7.96878198,0 112.64567292,-7.96753197,0 112.64565996,-7.96499496,0 112.64566608,-7.96372101,0 112.64602788,-7.963317,0 112.64695704,-7.96347099,0 112.64809284,-7.96399803,0 112.64877108,-7.96430997,0 112.64799384,-7.965468,0 112.64779188,-7.96654503,0 112.64838192,-7.96715001,0 112.648923,-7.96824099,0 112.64934996,-7.96895001,0 112.65024492,-7.96891896,0 112.65097788,-7.96886397,0 112.65130584,-7.96818204,0 112.65203988,-7.96781403,0 112.65281892,-7.96753899,0 112.65363216,-7.96807296,0 112.652739,-7.97012199,0 112.65145308,-7.97173902,0 112.64984316,-7.97321502,0 112.64965488,-7.97379696,0 112.64863212,-7.97382396,0 112.64680512,-7.97354604,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Purwantoro</SimpleData>
+		<SimpleData name="KECAMATAN">Blimbing</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">2292</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">1</SimpleData>
+		<SimpleData name="KEMATIAN">107</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63723812,-7.96144104,0 112.63718304,-7.96084596,0 112.63742388,-7.95886596,0 112.63746384,-7.957035,0 112.63748184,-7.956225,0 112.63779396,-7.95385197,0 112.63845204,-7.95230298,0 112.63869792,-7.95172401,0 112.63921992,-7.95083004,0 112.64017716,-7.95098898,0 112.64175612,-7.95141198,0 112.64258808,-7.952517,0 112.64321088,-7.95345804,0 112.64448492,-7.95448296,0 112.645593,-7.95629502,0 112.64699592,-7.95692601,0 112.64785092,-7.95716001,0 112.64802912,-7.95720897,0 112.64949108,-7.95785202,0 112.65112512,-7.95894804,0 112.65125688,-7.96070898,0 112.64982984,-7.96273101,0 112.64877108,-7.96430997,0 112.64809284,-7.96399803,0 112.64695704,-7.96347099,0 112.64602788,-7.963317,0 112.64566608,-7.96372101,0 112.64565996,-7.96499496,0 112.64567292,-7.96753197,0 112.64536512,-7.96878198,0 112.64440284,-7.96829103,0 112.64358384,-7.96683996,0 112.64234904,-7.96471398,0 112.64048892,-7.96233204,0 112.63849416,-7.96138497,0 112.63723812,-7.96144104,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Pandanwangi</SimpleData>
+		<SimpleData name="KECAMATAN">Blimbing</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">3983</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">40</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.64877108,-7.96430997,0 112.64982984,-7.96273101,0 112.65125688,-7.96070898,0 112.65112512,-7.95894804,0 112.64949108,-7.95785202,0 112.64802912,-7.95720897,0 112.64785092,-7.95716001,0 112.64901408,-7.95523203,0 112.64980104,-7.9533,0 112.65002712,-7.95212001,0 112.64924016,-7.95124701,0 112.64915412,-7.95121101,0 112.64972004,-7.95048498,0 112.65065208,-7.94992104,0 112.65186888,-7.950564,0 112.65305112,-7.95146103,0 112.65411888,-7.95165102,0 112.65454512,-7.94997297,0 112.65391296,-7.94912499,0 112.654296,-7.94838402,0 112.654809,-7.94783097,0 112.65584508,-7.947522,0 112.65590484,-7.94739303,0 112.65610104,-7.94744199,0 112.65708888,-7.94744604,0 112.657788,-7.94717496,0 112.65899292,-7.95456702,0 112.65785316,-7.96208004,0 112.65753492,-7.96417398,0 112.65782112,-7.96487301,0 112.65598584,-7.96609296,0 112.654881,-7.96647096,0 112.65373584,-7.96783302,0 112.65363216,-7.96807296,0 112.65281892,-7.96753899,0 112.65203988,-7.96781403,0 112.65130584,-7.96818204,0 112.65097788,-7.96886397,0 112.65024492,-7.96891896,0 112.64934996,-7.96895001,0 112.648923,-7.96824099,0 112.64838192,-7.96715001,0 112.64779188,-7.96654503,0 112.64799384,-7.965468,0 112.64877108,-7.96430997,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Blimbing</SimpleData>
+		<SimpleData name="KECAMATAN">Blimbing</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">1095</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">47</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.64785092,-7.95716001,0 112.64699592,-7.95692601,0 112.645593,-7.95629502,0 112.64448492,-7.95448296,0 112.64321088,-7.95345804,0 112.64258808,-7.952517,0 112.64175612,-7.95141198,0 112.64017716,-7.95098898,0 112.63921992,-7.95083004,0 112.63954104,-7.95027897,0 112.63989096,-7.94725704,0 112.63892796,-7.94689398,0 112.63761684,-7.94648304,0 112.63603788,-7.94610504,0 112.63494996,-7.94524302,0 112.63479192,-7.94420001,0 112.63481388,-7.94414403,0 112.63655484,-7.94481003,0 112.63870116,-7.94571102,0 112.643559,-7.94838501,0 112.64637492,-7.95005397,0 112.64915412,-7.95121101,0 112.64924016,-7.95124701,0 112.65002712,-7.95212001,0 112.64980104,-7.9533,0 112.64901408,-7.95523203,0 112.64785092,-7.95716001,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Purwodadi</SimpleData>
+		<SimpleData name="KECAMATAN">Blimbing</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1575</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">2</SimpleData>
+		<SimpleData name="KEMATIAN">72</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.64915412,-7.95121101,0 112.64637492,-7.95005397,0 112.643559,-7.94838501,0 112.63870116,-7.94571102,0 112.63655484,-7.94481003,0 112.63481388,-7.94414403,0 112.63522608,-7.94311299,0 112.63549608,-7.94292102,0 112.63631004,-7.94234097,0 112.63861404,-7.94163303,0 112.64004216,-7.94104902,0 112.642632,-7.94228697,0 112.64454396,-7.94346597,0 112.64632884,-7.94447001,0 112.64761404,-7.94570301,0 112.64929488,-7.94667204,0 112.65134616,-7.94804697,0 112.65381684,-7.94899602,0 112.65391296,-7.94912499,0 112.65454512,-7.94997297,0 112.65411888,-7.95165102,0 112.65305112,-7.95146103,0 112.65186888,-7.950564,0 112.65065208,-7.94992104,0 112.64972004,-7.95048498,0 112.64915412,-7.95121101,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Arjosari</SimpleData>
+		<SimpleData name="KECAMATAN">Blimbing</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1160</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">3</SimpleData>
+		<SimpleData name="KEMATIAN">54</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.65590484,-7.94739303,0 112.65396516,-7.94691198,0 112.65172596,-7.94597499,0 112.64940612,-7.94501604,0 112.64802588,-7.94436102,0 112.64798484,-7.94315601,0 112.64792292,-7.94137203,0 112.64726592,-7.94009403,0 112.64745996,-7.93925397,0 112.64897592,-7.93968498,0 112.65043788,-7.94016603,0 112.65176016,-7.940925,0 112.65268716,-7.94138004,0 112.65345216,-7.94194002,0 112.65443208,-7.94211903,0 112.65473808,-7.94247597,0 112.65582312,-7.94409498,0 112.65775704,-7.94698101,0 112.657788,-7.94717496,0 112.65708888,-7.94744604,0 112.65610104,-7.94744199,0 112.65590484,-7.94739303,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Polowijen</SimpleData>
+		<SimpleData name="KECAMATAN">Blimbing</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1352</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">2</SimpleData>
+		<SimpleData name="KEMATIAN">33</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.64004216,-7.94104902,0 112.64026716,-7.94095704,0 112.64172588,-7.93957302,0 112.64208984,-7.93875501,0 112.64258016,-7.93765296,0 112.64352012,-7.93835199,0 112.64530788,-7.93883502,0 112.64707296,-7.93914399,0 112.64745996,-7.93925397,0 112.64726592,-7.94009403,0 112.64792292,-7.94137203,0 112.64798484,-7.94315601,0 112.64802588,-7.94436102,0 112.64940612,-7.94501604,0 112.65172596,-7.94597499,0 112.65396516,-7.94691198,0 112.65590484,-7.94739303,0 112.65584508,-7.947522,0 112.654809,-7.94783097,0 112.654296,-7.94838402,0 112.65391296,-7.94912499,0 112.65381684,-7.94899602,0 112.65134616,-7.94804697,0 112.64929488,-7.94667204,0 112.64761404,-7.94570301,0 112.64632884,-7.94447001,0 112.64454396,-7.94346597,0 112.642632,-7.94228697,0 112.64004216,-7.94104902,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Balearjosari</SimpleData>
+		<SimpleData name="KECAMATAN">Blimbing</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1513</SimpleData>
+		<SimpleData name="SUMBER_PEN">Industri</SimpleData>
+		<SimpleData name="KEMATIAN_B">2</SimpleData>
+		<SimpleData name="KEMATIAN">9</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.64258016,-7.93765296,0 112.64273496,-7.93730601,0 112.64308596,-7.934076,0 112.64275404,-7.93061604,0 112.64407704,-7.93127502,0 112.64933016,-7.93618002,0 112.65290388,-7.94034,0 112.65443208,-7.94211903,0 112.65345216,-7.94194002,0 112.65268716,-7.94138004,0 112.65176016,-7.940925,0 112.65043788,-7.94016603,0 112.64897592,-7.93968498,0 112.64745996,-7.93925397,0 112.64707296,-7.93914399,0 112.64530788,-7.93883502,0 112.64352012,-7.93835199,0 112.64258016,-7.93765296,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Merjosari</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">3361</SimpleData>
+		<SimpleData name="SUMBER_PEN">Pertanian</SimpleData>
+		<SimpleData name="SUB_SEKTOR">Tanaman Pangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">7</SimpleData>
+		<SimpleData name="KEMATIAN">60</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.61305008,-7.95389697,0 112.61219508,-7.95353202,0 112.61029104,-7.95328101,0 112.60828116,-7.95319101,0 112.60488996,-7.95249297,0 112.60223388,-7.95148497,0 112.60100916,-7.94990403,0 112.59967788,-7.94858904,0 112.59825408,-7.94735496,0 112.59498996,-7.94706201,0 112.59339516,-7.94770398,0 112.59097704,-7.94796003,0 112.58807184,-7.94802798,0 112.58622216,-7.94840202,0 112.58131104,-7.94945601,0 112.57780896,-7.94491596,0 112.57759692,-7.94073402,0 112.57815708,-7.940745,0 112.58708004,-7.94092401,0 112.59620604,-7.94232603,0 112.59987912,-7.939377,0 112.60053396,-7.94152602,0 112.60123092,-7.94423997,0 112.60229292,-7.94603997,0 112.60365984,-7.94682198,0 112.60541304,-7.94725902,0 112.607154,-7.94786904,0 112.60883916,-7.94781801,0 112.60978308,-7.94717298,0 112.61051496,-7.94710701,0 112.61167416,-7.94774898,0 112.61360592,-7.94716704,0 112.61515788,-7.94631699,0 112.61519892,-7.94684898,0 112.61543904,-7.947963,0 112.61548008,-7.94909799,0 112.61563812,-7.950141,0 112.61534292,-7.95125196,0 112.61465208,-7.952454,0 112.61305008,-7.95389697,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Dinoyo</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">1178</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">2</SimpleData>
+		<SimpleData name="KEMATIAN">64</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.61305008,-7.95389697,0 112.61465208,-7.952454,0 112.61534292,-7.95125196,0 112.61563812,-7.950141,0 112.61548008,-7.94909799,0 112.61543904,-7.947963,0 112.61519892,-7.94684898,0 112.61515788,-7.94631699,0 112.61511108,-7.94572497,0 112.61532492,-7.94477601,0 112.61593584,-7.94328399,0 112.61602404,-7.94157003,0 112.61609496,-7.94052801,0 112.61665584,-7.94066904,0 112.61680308,-7.94086497,0 112.61733696,-7.94157597,0 112.61767788,-7.94333799,0 112.61803104,-7.94504304,0 112.61894112,-7.94687697,0 112.62022092,-7.94907198,0 112.62094416,-7.95127698,0 112.621068,-7.95145797,0 112.62067308,-7.95202803,0 112.61985804,-7.95236103,0 112.61944188,-7.95186099,0 112.61850192,-7.95161403,0 112.61766492,-7.95172599,0 112.61700792,-7.95304404,0 112.61696796,-7.95434103,0 112.61738808,-7.95469104,0 112.61708892,-7.95579003,0 112.61674908,-7.95655296,0 112.61570904,-7.95675699,0 112.61547216,-7.95624597,0 112.61389284,-7.956054,0 112.61318616,-7.955541,0 112.61332008,-7.95401199,0 112.61305008,-7.95389697,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Sumbersari</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">1284</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">51</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.61832804,-7.96257,0 112.61780604,-7.96195602,0 112.61673684,-7.96211397,0 112.61620512,-7.96132296,0 112.61512908,-7.96023,0 112.61418984,-7.95969297,0 112.61495088,-7.95849102,0 112.615875,-7.95711699,0 112.61570904,-7.95675699,0 112.61674908,-7.95655296,0 112.61708892,-7.95579003,0 112.61738808,-7.95469104,0 112.61791692,-7.95513303,0 112.61809908,-7.95609504,0 112.61853684,-7.95701196,0 112.61952216,-7.95768903,0 112.62048084,-7.95877002,0 112.62157092,-7.95935403,0 112.62268008,-7.958502,0 112.62273516,-7.95905802,0 112.62420612,-7.96003704,0 112.62575988,-7.960797,0 112.62644208,-7.96166901,0 112.62589704,-7.96404096,0 112.62556008,-7.96453596,0 112.625055,-7.96527702,0 112.62421008,-7.96565403,0 112.623588,-7.96593204,0 112.62180204,-7.96514796,0 112.62039084,-7.96358898,0 112.61948904,-7.96261203,0 112.61860704,-7.96218003,0 112.61832804,-7.96257,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Ketawanggede</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">826</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">1</SimpleData>
+		<SimpleData name="KEMATIAN">32</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62268008,-7.958502,0 112.62157092,-7.95935403,0 112.62048084,-7.95877002,0 112.61952216,-7.95768903,0 112.61853684,-7.95701196,0 112.61809908,-7.95609504,0 112.61791692,-7.95513303,0 112.61738808,-7.95469104,0 112.61696796,-7.95434103,0 112.61700792,-7.95304404,0 112.61766492,-7.95172599,0 112.61850192,-7.95161403,0 112.61944188,-7.95186099,0 112.61985804,-7.95236103,0 112.62067308,-7.95202803,0 112.621068,-7.95145797,0 112.62216816,-7.953066,0 112.62201696,-7.95305403,0 112.62136212,-7.95398904,0 112.62168396,-7.95483603,0 112.62243492,-7.95577797,0 112.62261204,-7.957818,0 112.62268008,-7.958502,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Jatimulyo</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">2514</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">33</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62216816,-7.953066,0 112.621068,-7.95145797,0 112.62094416,-7.95127698,0 112.62022092,-7.94907198,0 112.61894112,-7.94687697,0 112.61803104,-7.94504304,0 112.61767788,-7.94333799,0 112.61733696,-7.94157597,0 112.61680308,-7.94086497,0 112.61730888,-7.94011599,0 112.61859084,-7.93925298,0 112.619439,-7.93932597,0 112.62011904,-7.94049903,0 112.62042612,-7.94222604,0 112.62079188,-7.943553,0 112.62082608,-7.94367603,0 112.62200508,-7.94519901,0 112.62332484,-7.94631699,0 112.62511116,-7.94706597,0 112.62658284,-7.94784897,0 112.62708504,-7.94801403,0 112.62600612,-7.94972304,0 112.62688416,-7.95076902,0 112.62734604,-7.95151296,0 112.62844908,-7.951761,0 112.62969108,-7.95205602,0 112.63154796,-7.95259701,0 112.63368204,-7.953579,0 112.63414104,-7.95494799,0 112.63397796,-7.95523203,0 112.63388292,-7.95539898,0 112.633245,-7.95515301,0 112.63215384,-7.95477699,0 112.63095612,-7.95503898,0 112.629627,-7.95599397,0 112.62827484,-7.95710097,0 112.62772404,-7.95748896,0 112.62700908,-7.95693303,0 112.62549312,-7.95530502,0 112.62411612,-7.95412899,0 112.62294612,-7.95312702,0 112.62216816,-7.953066,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Lowokwaru</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">1232</SimpleData>
+		<SimpleData name="SUMBER_PEN">Perdagangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">4</SimpleData>
+		<SimpleData name="KEMATIAN">142</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62863016,-7.95819402,0 112.62772404,-7.95748896,0 112.62827484,-7.95710097,0 112.629627,-7.95599397,0 112.63095612,-7.95503898,0 112.63215384,-7.95477699,0 112.633245,-7.95515301,0 112.63388292,-7.95539898,0 112.63397796,-7.95523203,0 112.63442796,-7.95567897,0 112.63513392,-7.95644703,0 112.63628196,-7.95685698,0 112.63746384,-7.957035,0 112.63742388,-7.95886596,0 112.63718304,-7.96084596,0 112.63723812,-7.96144104,0 112.63730508,-7.96217904,0 112.63774392,-7.96280103,0 112.63781412,-7.96289904,0 112.63730688,-7.96442697,0 112.636116,-7.965846,0 112.63502304,-7.9659,0 112.63373712,-7.96511799,0 112.63285116,-7.96430304,0 112.63277592,-7.96423302,0 112.63287708,-7.96238001,0 112.63288392,-7.96081599,0 112.63101804,-7.95954501,0 112.62885012,-7.95836601,0 112.62863016,-7.95819402,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Tulusrejo</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1313</SimpleData>
+		<SimpleData name="SUMBER_PEN">Industri</SimpleData>
+		<SimpleData name="KEMATIAN_B">4</SimpleData>
+		<SimpleData name="KEMATIAN">55</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63397796,-7.95523203,0 112.63414104,-7.95494799,0 112.63368204,-7.953579,0 112.63154796,-7.95259701,0 112.62969108,-7.95205602,0 112.62844908,-7.951761,0 112.62734604,-7.95151296,0 112.62688416,-7.95076902,0 112.62600612,-7.94972304,0 112.62708504,-7.94801403,0 112.62712896,-7.94794401,0 112.62838608,-7.94757798,0 112.63001004,-7.94807199,0 112.63151088,-7.94773098,0 112.63298616,-7.94796903,0 112.63636692,-7.95075201,0 112.63845204,-7.95230298,0 112.63779396,-7.95385197,0 112.63748184,-7.956225,0 112.63746384,-7.957035,0 112.63628196,-7.95685698,0 112.63513392,-7.95644703,0 112.63442796,-7.95567897,0 112.63397796,-7.95523203,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Mojolangu</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">2884</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">5</SimpleData>
+		<SimpleData name="KEMATIAN">57</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62708504,-7.94801403,0 112.62658284,-7.94784897,0 112.62511116,-7.94706597,0 112.62332484,-7.94631699,0 112.62200508,-7.94519901,0 112.62082608,-7.94367603,0 112.62079188,-7.943553,0 112.62106008,-7.94327202,0 112.62193488,-7.94262699,0 112.62293604,-7.94214504,0 112.62438684,-7.94242899,0 112.62606192,-7.94201904,0 112.62666096,-7.94070099,0 112.62670092,-7.93954296,0 112.62674016,-7.93856997,0 112.62673692,-7.93856502,0 112.62756312,-7.93896696,0 112.628493,-7.93894797,0 112.62902904,-7.93867203,0 112.62959712,-7.93895301,0 112.63044384,-7.93917702,0 112.631094,-7.93943397,0 112.63193784,-7.94039904,0 112.632678,-7.94120202,0 112.63333716,-7.941888,0 112.63424184,-7.94219301,0 112.63549608,-7.94292102,0 112.63522608,-7.94311299,0 112.63481388,-7.94414403,0 112.63479192,-7.94420001,0 112.63494996,-7.94524302,0 112.63603788,-7.94610504,0 112.63761684,-7.94648304,0 112.63892796,-7.94689398,0 112.63989096,-7.94725704,0 112.63954104,-7.95027897,0 112.63921992,-7.95083004,0 112.63869792,-7.95172401,0 112.63845204,-7.95230298,0 112.63636692,-7.95075201,0 112.63298616,-7.94796903,0 112.63151088,-7.94773098,0 112.63001004,-7.94807199,0 112.62838608,-7.94757798,0 112.62712896,-7.94794401,0 112.62708504,-7.94801403,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Tlogomas</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1865</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">67</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.61515788,-7.94631699,0 112.61360592,-7.94716704,0 112.61167416,-7.94774898,0 112.61051496,-7.94710701,0 112.60978308,-7.94717298,0 112.60883916,-7.94781801,0 112.607154,-7.94786904,0 112.60541304,-7.94725902,0 112.60365984,-7.94682198,0 112.60229292,-7.94603997,0 112.60123092,-7.94423997,0 112.60053396,-7.94152602,0 112.59987912,-7.939377,0 112.60033812,-7.939008,0 112.601817,-7.927245,0 112.60370088,-7.92289404,0 112.60525788,-7.92211401,0 112.605174,-7.92507204,0 112.60693692,-7.92832401,0 112.60878192,-7.93158696,0 112.61014092,-7.93431504,0 112.61196504,-7.93705797,0 112.61379096,-7.93945197,0 112.61543688,-7.94036304,0 112.61609496,-7.94052801,0 112.61602404,-7.94157003,0 112.61593584,-7.94328399,0 112.61532492,-7.94477601,0 112.61511108,-7.94572497,0 112.61515788,-7.94631699,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Tunggulwulung</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">1879</SimpleData>
+		<SimpleData name="SUMBER_PEN">Pertanian</SimpleData>
+		<SimpleData name="SUB_SEKTOR">Tanaman Pangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">1</SimpleData>
+		<SimpleData name="KEMATIAN">18</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.61609496,-7.94052801,0 112.61543688,-7.94036304,0 112.61379096,-7.93945197,0 112.61196504,-7.93705797,0 112.61014092,-7.93431504,0 112.60878192,-7.93158696,0 112.60693692,-7.92832401,0 112.605174,-7.92507204,0 112.60525788,-7.92211401,0 112.60792116,-7.92077904,0 112.61443788,-7.92216999,0 112.61775816,-7.92277902,0 112.61907,-7.92535302,0 112.62045996,-7.92910098,0 112.62158604,-7.93198998,0 112.62254184,-7.93384803,0 112.62417588,-7.934886,0 112.624677,-7.93503,0 112.624569,-7.93531701,0 112.62440484,-7.935687,0 112.62494808,-7.93647702,0 112.62623292,-7.93760598,0 112.62673692,-7.93856502,0 112.62674016,-7.93856997,0 112.62670092,-7.93954296,0 112.62666096,-7.94070099,0 112.62606192,-7.94201904,0 112.62438684,-7.94242899,0 112.62293604,-7.94214504,0 112.62193488,-7.94262699,0 112.62106008,-7.94327202,0 112.62079188,-7.943553,0 112.62042612,-7.94222604,0 112.62011904,-7.94049903,0 112.619439,-7.93932597,0 112.61859084,-7.93925298,0 112.61730888,-7.94011599,0 112.61680308,-7.94086497,0 112.61665584,-7.94066904,0 112.61609496,-7.94052801,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Tunjungsekar</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Kota</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">1870</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">27</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63549608,-7.94292102,0 112.63424184,-7.94219301,0 112.63333716,-7.941888,0 112.632678,-7.94120202,0 112.63193784,-7.94039904,0 112.631094,-7.93943397,0 112.63044384,-7.93917702,0 112.62959712,-7.93895301,0 112.62902904,-7.93867203,0 112.628493,-7.93894797,0 112.62756312,-7.93896696,0 112.62673692,-7.93856502,0 112.62623292,-7.93760598,0 112.62494808,-7.93647702,0 112.62440484,-7.935687,0 112.624569,-7.93531701,0 112.624677,-7.93503,0 112.62556908,-7.93528596,0 112.62677616,-7.93551096,0 112.62809916,-7.93609596,0 112.630653,-7.936443,0 112.63208292,-7.93648404,0 112.63273596,-7.93576899,0 112.63296384,-7.93425204,0 112.63365288,-7.93338597,0 112.63488516,-7.93333404,0 112.63644792,-7.93454499,0 112.63782708,-7.93565199,0 112.63949712,-7.93623798,0 112.64111784,-7.93760103,0 112.64208984,-7.93875501,0 112.64172588,-7.93957302,0 112.64026716,-7.94095704,0 112.64004216,-7.94104902,0 112.63861404,-7.94163303,0 112.63631004,-7.94234097,0 112.63549608,-7.94292102,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Tasikmadu</SimpleData>
+		<SimpleData name="KECAMATAN">Lowok Waru</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">2433</SimpleData>
+		<SimpleData name="SUMBER_PEN">Pertanian</SimpleData>
+		<SimpleData name="SUB_SEKTOR">Tanaman Pangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">8</SimpleData>
+		<SimpleData name="KEMATIAN">59</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.624677,-7.93503,0 112.62417588,-7.934886,0 112.62254184,-7.93384803,0 112.62158604,-7.93198998,0 112.62045996,-7.92910098,0 112.61907,-7.92535302,0 112.61775816,-7.92277902,0 112.62222792,-7.92359802,0 112.62825504,-7.92277902,0 112.63100796,-7.921449,0 112.63394916,-7.92437697,0 112.63906404,-7.92877599,0 112.64275404,-7.93061604,0 112.64308596,-7.934076,0 112.64273496,-7.93730601,0 112.64258016,-7.93765296,0 112.64208984,-7.93875501,0 112.64111784,-7.93760103,0 112.63949712,-7.93623798,0 112.63782708,-7.93565199,0 112.63644792,-7.93454499,0 112.63488516,-7.93333404,0 112.63365288,-7.93338597,0 112.63296384,-7.93425204,0 112.63273596,-7.93576899,0 112.63208292,-7.93648404,0 112.630653,-7.936443,0 112.62809916,-7.93609596,0 112.62677616,-7.93551096,0 112.62556908,-7.93528596,0 112.624677,-7.93503,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Bakalan Krajan</SimpleData>
+		<SimpleData name="KECAMATAN">Sukun</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1777</SimpleData>
+		<SimpleData name="SUMBER_PEN">Konstruksi</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">35</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62038508,-8.00390799,0 112.61997504,-8.00375004,0 112.61236788,-8.00510904,0 112.607541,-8.00241498,0 112.60371384,-7.99881399,0 112.60155816,-7.99472502,0 112.60359684,-7.99301196,0 112.60567008,-7.99199001,0 112.60725516,-7.99112799,0 112.60888488,-7.99046298,0 112.61004912,-7.98987699,0 112.61031696,-7.98960402,0 112.61144016,-7.99083297,0 112.61269584,-7.99314399,0 112.61374704,-7.99477002,0 112.61544984,-7.99601697,0 112.61720088,-7.99685901,0 112.61852496,-7.99721199,0 112.61982492,-7.99748397,0 112.62102984,-7.99844004,0 112.62136104,-7.99965702,0 112.62111012,-8.00145198,0 112.62038508,-8.00390799,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Kebonsari</SimpleData>
+		<SimpleData name="KECAMATAN">Sukun</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1571</SimpleData>
+		<SimpleData name="SUMBER_PEN">Konstruksi</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">23</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62660516,-8.025849,0 112.62588408,-8.02519497,0 112.62344688,-8.02112103,0 112.62188304,-8.01620604,0 112.622751,-8.01158598,0 112.623318,-8.00856603,0 112.623246,-8.00501598,0 112.622634,-8.00477901,0 112.62338712,-8.00419599,0 112.62626784,-8.00176401,0 112.62678804,-8.001081,0 112.627206,-8.00259003,0 112.62700008,-8.00468604,0 112.62643308,-8.006769,0 112.62661308,-8.00814897,0 112.62787596,-8.00891901,0 112.62913992,-8.00953803,0 112.63027716,-8.01020304,0 112.63139892,-8.01138996,0 112.63239612,-8.012007,0 112.63208004,-8.01240003,0 112.63131,-8.01395802,0 112.631166,-8.01424998,0 112.63094388,-8.01721503,0 112.63147416,-8.02081998,0 112.63180896,-8.02404198,0 112.63232088,-8.02674396,0 112.63237308,-8.03243502,0 112.630941,-8.02978596,0 112.62660516,-8.025849,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Gadang</SimpleData>
+		<SimpleData name="KECAMATAN">Sukun</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1952</SimpleData>
+		<SimpleData name="SUMBER_PEN">Perdagangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">30</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.63239612,-8.012007,0 112.63139892,-8.01138996,0 112.63027716,-8.01020304,0 112.62913992,-8.00953803,0 112.62787596,-8.00891901,0 112.62661308,-8.00814897,0 112.62643308,-8.006769,0 112.62700008,-8.00468604,0 112.627206,-8.00259003,0 112.62678804,-8.001081,0 112.62941316,-7.99763004,0 112.62962016,-7.99670403,0 112.63045212,-7.996545,0 112.63126716,-7.99613199,0 112.63240584,-7.99606701,0 112.63244688,-7.99605,0 112.63254012,-7.99742304,0 112.63345092,-7.99908399,0 112.63388508,-8.00090397,0 112.63325904,-8.00310303,0 112.63333212,-8.00500302,0 112.63375188,-8.00748396,0 112.63390596,-8.00945397,0 112.63348188,-8.010657,0 112.63239612,-8.012007,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Ciptomulyo</SimpleData>
+		<SimpleData name="KECAMATAN">Sukun</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">829</SimpleData>
+		<SimpleData name="SUMBER_PEN">Industri</SimpleData>
+		<SimpleData name="KEMATIAN_B">2</SimpleData>
+		<SimpleData name="KEMATIAN">43</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62962016,-7.99670403,0 112.62980412,-7.99588197,0 112.62957912,-7.99412004,0 112.62905208,-7.99241499,0 112.62835692,-7.99113501,0 112.62877992,-7.99074603,0 112.62980088,-7.98837498,0 112.63049496,-7.98654798,0 112.63113684,-7.98582096,0 112.63175208,-7.98576003,0 112.63214916,-7.98572097,0 112.63321584,-7.98603804,0 112.63437504,-7.98675003,0 112.635333,-7.98740397,0 112.63509108,-7.98781896,0 112.63466484,-7.98956604,0 112.63429692,-7.991406,0 112.63345308,-7.993233,0 112.63243104,-7.99580097,0 112.63244688,-7.99605,0 112.63240584,-7.99606701,0 112.63126716,-7.99613199,0 112.63045212,-7.996545,0 112.62962016,-7.99670403,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Bandungrejosari</SimpleData>
+		<SimpleData name="KECAMATAN">Sukun</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">2750</SimpleData>
+		<SimpleData name="SUMBER_PEN">Industri</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">61</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62038508,-8.00390799,0 112.62111012,-8.00145198,0 112.62136104,-7.99965702,0 112.62102984,-7.99844004,0 112.61982492,-7.99748397,0 112.61852496,-7.99721199,0 112.61720088,-7.99685901,0 112.61544984,-7.99601697,0 112.61374704,-7.99477002,0 112.61269584,-7.99314399,0 112.61144016,-7.99083297,0 112.61031696,-7.98960402,0 112.61077308,-7.98913899,0 112.61132208,-7.988481,0 112.61219508,-7.98818301,0 112.613436,-7.98870996,0 112.61515284,-7.98945903,0 112.616721,-7.98969699,0 112.617792,-7.98934302,0 112.61782512,-7.989201,0 112.61895192,-7.98971904,0 112.62002292,-7.98994404,0 112.62041496,-7.99002603,0 112.62177108,-7.990866,0 112.62230208,-7.99182999,0 112.62257712,-7.99279299,0 112.62397104,-7.99290297,0 112.62653784,-7.99307604,0 112.62737484,-7.99312599,0 112.627494,-7.992432,0 112.62740688,-7.992009,0 112.62835692,-7.99113501,0 112.62905208,-7.99241499,0 112.62957912,-7.99412004,0 112.62980412,-7.99588197,0 112.62962016,-7.99670403,0 112.62941316,-7.99763004,0 112.62678804,-8.001081,0 112.62626784,-8.00176401,0 112.62338712,-8.00419599,0 112.622634,-8.00477901,0 112.62038508,-8.00390799,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Tanjungrejo</SimpleData>
+		<SimpleData name="KECAMATAN">Sukun</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">930</SimpleData>
+		<SimpleData name="SUMBER_PEN">Perdagangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">49</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.61782512,-7.989201,0 112.618242,-7.98742197,0 112.61713212,-7.98610797,0 112.61604384,-7.98496803,0 112.61635416,-7.98327801,0 112.61739888,-7.98075702,0 112.61750112,-7.97959197,0 112.61895012,-7.979535,0 112.62115008,-7.97885703,0 112.62116088,-7.97888502,0 112.62222684,-7.97956101,0 112.62358692,-7.97961303,0 112.62420108,-7.97937696,0 112.62501,-7.98092901,0 112.62476412,-7.98155298,0 112.623975,-7.98128298,0 112.62331116,-7.981605,0 112.62270384,-7.98222798,0 112.62169188,-7.982316,0 112.62124692,-7.98306696,0 112.62040704,-7.98386301,0 112.620051,-7.98557598,0 112.61999412,-7.98800904,0 112.62002292,-7.98994404,0 112.61895192,-7.98971904,0 112.61782512,-7.989201,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Sukun</SimpleData>
+		<SimpleData name="KECAMATAN">Sukun</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">1292</SimpleData>
+		<SimpleData name="SUMBER_PEN">Perdagangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">3</SimpleData>
+		<SimpleData name="KEMATIAN">71</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.62002292,-7.98994404,0 112.61999412,-7.98800904,0 112.620051,-7.98557598,0 112.62040704,-7.98386301,0 112.62124692,-7.98306696,0 112.62169188,-7.982316,0 112.62270384,-7.98222798,0 112.62331116,-7.981605,0 112.623975,-7.98128298,0 112.62476412,-7.98155298,0 112.62501,-7.98092901,0 112.62420108,-7.97937696,0 112.62501792,-7.97906304,0 112.62562488,-7.97860296,0 112.626243,-7.97803803,0 112.62687012,-7.97811003,0 112.62687984,-7.97849802,0 112.62688992,-7.97892102,0 112.62575592,-7.98059601,0 112.62565512,-7.98236802,0 112.62576384,-7.98410601,0 112.62599496,-7.98694497,0 112.62633588,-7.98886998,0 112.62655116,-7.99020297,0 112.62673116,-7.99150104,0 112.627251,-7.99215201,0 112.62740688,-7.992009,0 112.627494,-7.992432,0 112.62737484,-7.99312599,0 112.62653784,-7.99307604,0 112.62397104,-7.99290297,0 112.62257712,-7.99279299,0 112.62230208,-7.99182999,0 112.62177108,-7.990866,0 112.62041496,-7.99002603,0 112.62002292,-7.98994404,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Pisang Candi</SimpleData>
+		<SimpleData name="KECAMATAN">Sukun</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">1</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Rendah</SimpleData>
+		<SimpleData name="LUAS_WILAY">1842</SimpleData>
+		<SimpleData name="SUMBER_PEN">Jasa</SimpleData>
+		<SimpleData name="KEMATIAN_B">0</SimpleData>
+		<SimpleData name="KEMATIAN">78</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.60649916,-7.97451804,0 112.60446804,-7.96946004,0 112.60496916,-7.96901301,0 112.60602216,-7.96750002,0 112.607064,-7.96567401,0 112.60886112,-7.96406004,0 112.61005308,-7.96500396,0 112.61153916,-7.96541598,0 112.61301084,-7.96630302,0 112.61329416,-7.968123,0 112.61370708,-7.96922496,0 112.61438388,-7.96869504,0 112.61547792,-7.96825998,0 112.61637,-7.96893597,0 112.617342,-7.96994802,0 112.61850084,-7.97047398,0 112.619115,-7.97056803,0 112.61881908,-7.97234103,0 112.618809,-7.97269698,0 112.61877696,-7.97383503,0 112.61959704,-7.97507802,0 112.62026412,-7.97661,0 112.62074688,-7.97787504,0 112.62115008,-7.97885703,0 112.61895012,-7.979535,0 112.61750112,-7.97959197,0 112.61750904,-7.97949396,0 112.61665584,-7.97782302,0 112.61616084,-7.97677803,0 112.61498004,-7.97585697,0 112.61392704,-7.97484501,0 112.61301192,-7.97399496,0 112.61186316,-7.97376996,0 112.610421,-7.97394897,0 112.60812996,-7.97426397,0 112.60649916,-7.97451804,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Karang Besuki</SimpleData>
+		<SimpleData name="KECAMATAN">Sukun</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">3038</SimpleData>
+		<SimpleData name="SUMBER_PEN">Industri</SimpleData>
+		<SimpleData name="KEMATIAN_B">2</SimpleData>
+		<SimpleData name="KEMATIAN">64</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.60446804,-7.96946004,0 112.60364904,-7.96741902,0 112.59626292,-7.96084497,0 112.59199296,-7.95773997,0 112.58735184,-7.95436497,0 112.58166312,-7.94991204,0 112.58131104,-7.94945601,0 112.58622216,-7.94840202,0 112.58807184,-7.94802798,0 112.59097704,-7.94796003,0 112.59339516,-7.94770398,0 112.59498996,-7.94706201,0 112.59825408,-7.94735496,0 112.59967788,-7.94858904,0 112.60100916,-7.94990403,0 112.60223388,-7.95148497,0 112.60488996,-7.95249297,0 112.60828116,-7.95319101,0 112.61029104,-7.95328101,0 112.61219508,-7.95353202,0 112.61305008,-7.95389697,0 112.61332008,-7.95401199,0 112.61318616,-7.955541,0 112.61389284,-7.956054,0 112.61547216,-7.95624597,0 112.61570904,-7.95675699,0 112.615875,-7.95711699,0 112.61495088,-7.95849102,0 112.61418984,-7.95969297,0 112.61512908,-7.96023,0 112.61620512,-7.96132296,0 112.61673684,-7.96211397,0 112.61780604,-7.96195602,0 112.61832804,-7.96257,0 112.61818584,-7.96276899,0 112.61794716,-7.96436604,0 112.61753388,-7.965882,0 112.61770092,-7.96743504,0 112.618764,-7.968888,0 112.61917692,-7.97019903,0 112.619115,-7.97056803,0 112.61850084,-7.97047398,0 112.617342,-7.96994802,0 112.61637,-7.96893597,0 112.61547792,-7.96825998,0 112.61438388,-7.96869504,0 112.61370708,-7.96922496,0 112.61329416,-7.968123,0 112.61301084,-7.96630302,0 112.61153916,-7.96541598,0 112.61005308,-7.96500396,0 112.60886112,-7.96406004,0 112.607064,-7.96567401,0 112.60602216,-7.96750002,0 112.60496916,-7.96901301,0 112.60446804,-7.96946004,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Mulyorejo</SimpleData>
+		<SimpleData name="KECAMATAN">Sukun</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">2748</SimpleData>
+		<SimpleData name="SUMBER_PEN">Pertanian</SimpleData>
+		<SimpleData name="SUB_SEKTOR">Tanaman Pangan</SimpleData>
+		<SimpleData name="KEMATIAN_B">3</SimpleData>
+		<SimpleData name="KEMATIAN">51</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.61227716,-7.98821802,0 112.61219508,-7.98818301,0 112.61132208,-7.988481,0 112.61077308,-7.98913899,0 112.61031696,-7.98960402,0 112.61004912,-7.98987699,0 112.60888488,-7.99046298,0 112.60725516,-7.99112799,0 112.60567008,-7.99199001,0 112.60359684,-7.99301196,0 112.60155816,-7.99472502,0 112.60119096,-7.99403004,0 112.60086804,-7.99341696,0 112.60133784,-7.98833304,0 112.60275696,-7.98523398,0 112.604445,-7.98154704,0 112.60579788,-7.978311,0 112.60893312,-7.97892399,0 112.61187612,-7.98256296,0 112.61227716,-7.98821802,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#njajalmalang">
+		<SimpleData name="DESA">Bandulan</SimpleData>
+		<SimpleData name="KECAMATAN">Sukun</SimpleData>
+		<SimpleData name="KABUPATEN">Kodya Malang</SimpleData>
+		<SimpleData name="PROPINSI">Jawa Timu</SimpleData>
+		<SimpleData name="STATUS_IDT">Non IDT</SimpleData>
+		<SimpleData name="STATUS_KOT">Desa</SimpleData>
+		<SimpleData name="STATUS_HUK">Definitif</SimpleData>
+		<SimpleData name="SUMBER_AIR">4</SimpleData>
+		<SimpleData name="IDT_94_95">Non IDT</SimpleData>
+		<SimpleData name="IDT_95_96">Non IDT</SimpleData>
+		<SimpleData name="KLASIFIKAS">Swasembada</SimpleData>
+		<SimpleData name="TERMASUK_D">Dataran Tinggi</SimpleData>
+		<SimpleData name="LUAS_WILAY">2242</SimpleData>
+		<SimpleData name="SUMBER_PEN">Konstruksi</SimpleData>
+		<SimpleData name="KEMATIAN_B">4</SimpleData>
+		<SimpleData name="KEMATIAN">68</SimpleData>
+		<SimpleData name="BANYAKNYA_">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>112.60579788,-7.978311,0 112.60693296,-7.97559903,0 112.60649916,-7.97451804,0 112.60812996,-7.97426397,0 112.610421,-7.97394897,0 112.61186316,-7.97376996,0 112.61301192,-7.97399496,0 112.61392704,-7.97484501,0 112.61498004,-7.97585697,0 112.61616084,-7.97677803,0 112.61665584,-7.97782302,0 112.61750904,-7.97949396,0 112.61750112,-7.97959197,0 112.61739888,-7.98075702,0 112.61635416,-7.98327801,0 112.61604384,-7.98496803,0 112.61713212,-7.98610797,0 112.618242,-7.98742197,0 112.61782512,-7.989201,0 112.617792,-7.98934302,0 112.616721,-7.98969699,0 112.61515284,-7.98945903,0 112.613436,-7.98870996,0 112.61227716,-7.98821802,0 112.61187612,-7.98256296,0 112.60893312,-7.97892399,0 112.60579788,-7.978311,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

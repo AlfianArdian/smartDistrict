@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <title>GIS Application</title>
+        <meta name="author" content="luckynvic@gmail.com">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- <link href="ext/customScroll/css/jquery.mCustomScrollbar.css" rel="stylesheet"> -->
+        <link href="css/style.default.css" rel="stylesheet">
+        <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+        <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+    </head>
+    <body>
+
+
+        <style>
+            .marker {
+              background-image: url('icons8-marker-48.png');
+              background-size: cover;
+              width: 30px;
+              height: 30px;
+              border-radius: 50%;
+              cursor: pointer;
+            }
+
+            .mapboxgl-popup {
+              max-width: 200px;
+            }
+
+            .mapboxgl-popup-content {
+              text-align: center;
+              font-family: 'Open Sans', sans-serif;
+              font-size: 12pt;
+            }
+        </style>
+
+
+
+        <nav class="navbar navbar-default nav-fixed-top" role="navigation" id="app-nav-bar" >
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">GIS</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="browse.html">Tourism Potential</a>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav">
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Application<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Setting</a>
+                            </li>
+                            <li>
+                                <a href="#">Manage User</a>
+                            </li>
+
+                        </ul>
+                    </li> -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Population Mapping<b style="margin-left: 5px" class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li style="padding-left: 5px">Based On:</li>
+                            <li>
+                                <a href="#">Gender</a>
+                            </li>
+                            <li>
+                                <a href="#">Educational</a>
+                            </li>
+                            <li>
+                                <a href="#">Population Density</a>
+                            </li>
+                            <li>
+                                <a href="#">Work</a>
+                            </li>
+                            <li>
+                                <a href="#">Age</a>
+                            </li>
+                            <li>
+                                <a href="#">Religious</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="satelitView.html">Satelit View</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+
+                </ul>
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li><p class="navbar-text">Signed in as Admin</p></li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="map-canvas" ></div>
+        
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- <script src="ext/customScroll/js/jquery.mCustomScrollbar.min.js"></script>
+        <script src="ext/customScroll/js/jquery.mousewheel.min.js"></script> -->
+        <script src="js/application.js"></script>
+
+        <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v3.1.6/mapbox-gl-geocoder.min.js'></script>
+        <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v3.1.6/mapbox-gl-geocoder.css' type='text/css' />
+
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoiZGlhbjk1IiwiYSI6ImNqdHFzaTNtZjBpc280NG80N2EyMnY4bWYifQ.PFVRQig9kQQAKYpwIqf0dg';
+
+            var blimbing = [112.651932, -7.930152];
+            var klojen = [112.618011, -7.966252];
+            var lowokwaru = [112.630447, -7.946053];
+            var kedungkandang = [112.643684, -8.011824];
+            var sukun = [112.630338, -8.004849]; 
+
+            var map = new mapboxgl.Map({
+                container: 'map-canvas',
+                style: 'mapbox://styles/mapbox/streets-v11',
+                // outdoors-v11 streets-v11
+                center: [112.631438, -7.986733],
+                zoom: 11
+            });
+            
+            // search
+            map.addControl(new MapboxGeocoder({
+                accessToken: mapboxgl.accessToken
+            }));
+
+
+            // polygon
+            map.on("load", function() {
+                map.addSource("national-park", {
+                    "type": "geojson",
+                    "data": {
+                        "type": "FeatureCollection",
+                        "features": [{
+                            "type": "Feature",
+                            "geometry": {
+                                "type": "Polygon",
+                                "coordinates": [
+                                    [
+                                        [112.586731, -7.953770],
+                                        [112.567635, -7.945267],
+                                        [112.571582, -7.941313],
+                                        [112.583766, -7.943901],
+                                        [112.585749, -7.941590],
+                                        [112.596026, -7.942888],
+                                        [112.597028, -7.932344],
+                                        [112.590395, -7.924455],
+                                        [112.609325, -7.926057],
+                                        [112.627301, -7.915463],
+                                        [112.638969, -7.926652],
+                                        [112.643639, -7.919050],
+                                        [112.661668, -7.931912],
+                                        [112.666683, -7.954055],
+                                        [112.657005, -7.972571],
+                                        [112.689009, -7.981483],
+                                        [112.694007, -7.989408],
+                                        [112.676843, -8.014676],
+                                        [112.669235, -8.015386],
+                                        [112.673926, -8.034216],
+                                        [112.656355, -8.055943],
+                                        [112.628284, -8.052727],
+                                        [112.627616, -8.040792],
+                                        [112.575069, -7.988693],
+                                        [112.599616, -7.976197],
+                                        [112.586731, -7.953770]
+                                    ]
+                                ]
+                            }
+                        } 
+                        // {
+                        //     "type": "Feature",
+                        //     "geometry": {
+                        //         "type": "Point",
+                        //         "coordinates": blimbing
+                        //     }
+                        // }, 
+                        
+                        ]
+                    }
+                });
+
+                map.addLayer({
+                    "id": "park-boundary",
+                    "type": "fill",
+                    "source": "national-park",
+                    "paint": {
+                        "fill-color": "#088",
+                        "fill-opacity": 0.5
+                    },
+                    "filter": ["==", "$type", "Polygon"]
+                });
+
+                // map.addLayer({
+                //     "id": "park-volcanoes",
+                //     "type": "circle",
+                //     "source": "national-park",
+                //     "paint": {
+                //         "circle-radius": 6,
+                //         "circle-color": "#B42222"
+                //     },
+                //     "filter": ["==", "$type", "Point"],
+                // });
+            });
+
+
+
+            var geojson = {
+              type: 'FeatureCollection',
+              features: [
+                // blimbing
+                {
+                  type: 'Feature',
+                  geometry: {
+                    type: 'Point',
+                    // coordinates: [-77.032, 38.913]
+                    coordinates: [112.651932, -7.930152]
+                  },
+                  properties: {
+                    title: 'Blimbing District',
+                    description: 'Detail'
+                  }
+                },
+              // klojen
+                {
+                  type: 'Feature',
+                  geometry: {
+                    type: 'Point',
+                    // coordinates: [-122.414, 37.776]
+                    coordinates: [112.618011, -7.966252]
+                  },
+                  properties: {
+                    title: 'Klojen District',
+                    description: 'Detail'
+                  }
+                },
+              // lowokwaru
+                {
+                  type: 'Feature',
+                  geometry: {
+                    type: 'Point',
+                    // coordinates: [-122.414, 37.776]
+                    coordinates: [112.630447, -7.946053]
+                  },
+                  properties: {
+                    title: 'Lowokwaru District',
+                    description: '<a href=\"getCoordinate.html\" target=\"_blank\" title=\"Opens in a new window\">Make it Mount Pleasant</a><br>Detail'
+                  }
+                },
+                // kedungkandang
+                {
+                  type: 'Feature',
+                  geometry: {
+                    type: 'Point',
+                    // coordinates: [-122.414, 37.776]
+                    coordinates: [112.643684, -8.011824]
+                  },
+                  properties: {
+                    title: 'Kedungkandang District',
+                    description: '<a href=\"getCoordinate.html\" target=\"_blank\" title=\"Opens in a new window\">Make it Mount Pleasant</a><br>Detail'
+                  }
+                },
+                // sukun
+                {
+                  type: 'Feature',
+                  geometry: {
+                    type: 'Point',
+                    // coordinates: [-122.414, 37.776]
+                    coordinates: [112.630338, -8.004849]
+                  },
+                  properties: {
+                    title: 'Sukun District',
+                    description: '<a href=\"getCoordinate.html\" target=\"_blank\" title=\"Opens in a new window\">Make it Mount Pleasant</a><br>Detail'
+                  }
+                },
+              ]
+            };
+
+            // add markers to map
+            geojson.features.forEach(function(marker) {
+
+              // create a HTML element for each feature
+              var el = document.createElement('div');
+              el.className = 'marker';
+
+              // make a marker for each feature and add to the map
+              new mapboxgl.Marker(el)
+                .setLngLat(marker.geometry.coordinates)
+
+                .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+                .setHTML('<h4>' + marker.properties.title + '</h4><p>' + marker.properties.description + '</p>'))
+
+                .addTo(map);
+            });
+
+
+
+        </script>
+
+        
+    </body>
+</html>
