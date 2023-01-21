@@ -5,3 +5,5 @@
  1. Google earth pro untuk mendapatkan file .kml malang agar bisa di proses lebih lanjut
  2. file .kml diproses ke gmapgis.com untuk bisa menjadi .kml agar bisa dimasukkan dalam website, untuk informasi perbatasan tiap kecamatan
  3. mapbox API untuk menghitung waktu tempuh, cara menempuh suatu tempat
+ 
+ demo youtube : https://youtu.be/lxs6Hji6XIY
